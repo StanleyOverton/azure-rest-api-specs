@@ -1260,6 +1260,19 @@
                 "name": "PublicNetworkAccess",
                 "modelAsString": true
               }
+            },
+            "sku": {
+              "description": "The selected SKU.",
+              "type": "string",
+              "enum": [
+                "Free",
+                "Paid"
+              ],
+              "readOnly": true,
+              "x-ms-enum": {
+                "name": "sku",
+                "modelAsString": true
+              }
             }
           }
         },
