@@ -20,7 +20,17 @@
         "properties": {
           "provisioningState": "Succeeded",
           "hostName": "contoso.api.adu.microsoft.com",
-          "sku": "Free"
+          "sku": "Free",
+          "locations": [
+            {
+              "name": "westus2",
+              "role": "Primary"
+            },
+            {
+              "name": "westcentralus",
+              "role": "Failover"
+            }
+          ]
         },
         "tags": {
           "tagKey": "tagValue"
@@ -41,7 +51,17 @@
         "properties": {
           "provisioningState": "Created",
           "hostName": "contoso.api.adu.microsoft.com",
-          "sku": "Free"
+          "sku": "Free",
+          "locations": [
+            {
+              "name": "westus2",
+              "role": "Primary"
+            },
+            {
+              "name": "westcentralus",
+              "role": "Failover"
+            }
+          ]
         },
         "tags": {
           "tagKey": "tagValue"

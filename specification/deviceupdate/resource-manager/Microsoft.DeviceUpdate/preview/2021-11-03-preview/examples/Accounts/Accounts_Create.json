@@ -6,7 +6,10 @@
     "api-version": "2021-11-03-preview",
     "Account": {
       "location": "westus2",
-      "properties": {}
+      "properties": {},
+      "locations": [
+        {}
+      ]
     }
   },
   "responses": {
